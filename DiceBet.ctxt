@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=bool
+comment0.target=void\ toggleDisplay(java.lang.Boolean)
+comment1.params=btn\ amount\ allIn
+comment1.target=void\ setBTNLabel(java.awt.Button,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ rollDice()
+comment3.params=btn\ position\ amount
+comment3.target=void\ mapButton(java.awt.Button,\ int,\ int)
+comment4.params=
+comment4.target=void\ init()
+comment5.params=amount\ allIn
+comment5.target=void\ manageBet(int,\ boolean)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=g
+comment7.target=void\ paint(java.awt.Graphics)
+numComments=8

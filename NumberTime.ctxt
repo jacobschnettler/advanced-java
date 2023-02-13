@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=someArray
+comment0.target=void\ shuffleArray(int[])
+comment1.params=num
+comment1.target=void\ clickedRight(int)
+comment2.params=g
+comment2.target=void\ clickedWrong(java.awt.Graphics)
+comment3.params=
+comment3.target=void\ drawBtns()
+comment4.params=
+comment4.target=void\ init()
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=g
+comment6.target=void\ paint(java.awt.Graphics)
+numComments=7

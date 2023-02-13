@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ setData()
+comment1.params=bool
+comment1.target=void\ toggleBTNS(java.lang.Boolean)
+comment10.params=e
+comment10.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment11.params=g
+comment11.target=void\ paint(java.awt.Graphics)
+comment2.params=g\ question\ x\ y\ option
+comment2.target=void\ drawAnswer(java.awt.Graphics,\ java.lang.String,\ int,\ int,\ java.lang.String)
+comment3.params=btn\ option\ x\ y
+comment3.target=void\ drawOptionBTN(java.awt.Button,\ java.lang.String,\ int,\ int)
+comment4.params=btn\ label\ x\ y
+comment4.target=void\ drawLifeline(java.awt.Button,\ java.lang.String,\ int,\ int)
+comment5.params=
+comment5.target=void\ phoneFriend()
+comment6.params=
+comment6.target=void\ audienceHelp()
+comment7.params=
+comment7.target=void\ fiftyFifty()
+comment8.params=
+comment8.target=void\ walkaway()
+comment9.params=
+comment9.target=void\ init()
+numComments=12
