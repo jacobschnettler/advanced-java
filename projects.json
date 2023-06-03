@@ -11,7 +11,7 @@
 	{
 		"label": "Image Guesser",
 		"id": "image-guesser",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/ImageGuesser.java",
 		"previews": [
 			"https://i.imgur.com/WR79WBl.png",
 			"https://i.imgur.com/3nDyure.png"
@@ -20,19 +20,19 @@
 	{
 		"label": "Who wants to be a Millionare",
 		"id": "millionare",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Millionare.java",
 		"previews": ["https://i.imgur.com/2P9Wh5M.png"]
 	},
 	{
 		"label": "Hangman",
 		"id": "hangman",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Hangman.java",
 		"previews": ["https://i.imgur.com/iFzWmbv.png"]
 	},
 	{
 		"label": "NIM 753",
 		"id": "nim-753",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NIM753.java",
 		"previews": [
 			"https://i.imgur.com/ITSmz2z.png",
 			"https://i.imgur.com/JC1o1C9.png"
@@ -41,7 +41,7 @@
 	{
 		"label": "Number Time",
 		"id": "number-time",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NumberTime.java",
 		"previews": [
 			"https://i.imgur.com/teQ2UPO.png",
 			"https://i.imgur.com/e7V73EN.png"
@@ -60,13 +60,13 @@
 	{
 		"label": "NFL Team Picker",
 		"id": "nfl-team-picker",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NFLTeamPicker.java",
 		"previews": ["https://i.imgur.com/vdgwRwj.png"]
 	},
 	{
 		"label": "Dice Bet",
 		"id": "dice-bet",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/DiceBet.java",
 		"previews": [
 			"https://i.imgur.com/mOo4iPh.png",
 			"https://i.imgur.com/KbNaddg.png"
@@ -81,7 +81,7 @@
 	{
 		"label": "Pizza Picker",
 		"id": "pizza-picker",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
+		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
 		"previews": ["https://i.imgur.com/e7V73EN.png"]
 	}
 ]
