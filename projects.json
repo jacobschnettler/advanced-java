@@ -3,7 +3,7 @@
 		"label": "Battleship",
 		"id": "battleship",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-		"youtube":"https://www.youtube.com/watch?v=F4NI4n0cZ3U",
+		"youtube":"https://www.youtube.com/embed/F4NI4n0cZ3U",
 		"previews": [
 			"https://i.imgur.com/TMnbTAa.png",
 			"https://i.imgur.com/efxfOku.png"
@@ -13,7 +13,7 @@
 		"label": "Image Guesser",
 		"id": "image-guesser",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/ImageGuesser.java",
-		"youtube": "https://www.youtube.com/watch?v=ecfmi7AzJC8",
+		"youtube": "https://www.youtube.com/embed/ecfmi7AzJC8",
 		"previews": [
 			"https://i.imgur.com/3nDyure.png",
 			"https://i.imgur.com/WR79WBl.png"
@@ -23,21 +23,21 @@
 		"label": "Who wants to be a Millionare",
 		"id": "millionare",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Millionare.java",
-		"youtube": "https://www.youtube.com/watch?v=l_vEOB_ZlOI",
+		"youtube": "https://www.youtube.com/embed/l_vEOB_ZlOI",
 		"previews": ["https://i.imgur.com/2P9Wh5M.png"]
 	},
 	{
 		"label": "Hangman",
 		"id": "hangman",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Hangman.java",
-		"youtube": "https://www.youtube.com/watch?v=zsI4x_czvJ4",
+		"youtube": "https://www.youtube.com/embed/zsI4x_czvJ4",
 		"previews": ["https://i.imgur.com/iFzWmbv.png"]
 	},
 	{
 		"label": "NIM 753",
 		"id": "nim-753",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NIM753.java",
-		"youtube": "https://www.youtube.com/watch?v=O9UlJ41OWBg",
+		"youtube": "https://www.youtube.com/embed/O9UlJ41OWBg",
 		"previews": [
 			"https://i.imgur.com/JC1o1C9.png",
 			"https://i.imgur.com/ITSmz2z.png"
@@ -47,7 +47,7 @@
 		"label": "Number Time",
 		"id": "number-time",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NumberTime.java",
-		"youtube": "https://www.youtube.com/watch?v=kz4D2qdL_Hw",
+		"youtube": "https://www.youtube.com/embed/kz4D2qdL_Hw",
 		"previews": [
 			"https://i.imgur.com/teQ2UPO.png",
 			"https://i.imgur.com/e7V73EN.png"
@@ -73,7 +73,7 @@
 		"label": "Dice Bet",
 		"id": "dice-bet",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/DiceBet.java",
-		"youtube": "https://www.youtube.com/watch?v=D6f2uJBfuOM",
+		"youtube": "https://www.youtube.com/embed/D6f2uJBfuOM",
 		"previews": [
 			"https://i.imgur.com/KbNaddg.png",
 			"https://i.imgur.com/mOo4iPh.png"
