@@ -77,17 +77,6 @@
 		"description": ""
 	},
 	{
-		"label": "Casino Slots",
-		"id": "casino-slots",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
-		"previews": [
-			"https://i.imgur.com/fds6uLd.png",
-			"https://i.imgur.com/rEOoQgB.png",
-			"https://i.imgur.com/C5MZjyD.png"
-		],
-		"description": ""
-	},
-	{
 		"label": "NFL Team Picker",
 		"id": "nfl-team-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NFLTeamPicker.java",
@@ -106,17 +95,26 @@
 		"description": ""
 	},
 	{
-		"label": "Simple Clock",
-		"id": "simple-clock",
-		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
-		"previews": ["https://i.imgur.com/pJ2qqYd.png"],
-		"description": ""
-	},
-	{
 		"label": "Pizza Picker",
 		"id": "pizza-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
 		"previews": ["https://i.imgur.com/e7V73EN.png"],
+		"description": ""
+	},
+	{
+		"label": "Casino Slots",
+		"id": "casino-slots",
+		"previews": [
+			"https://i.imgur.com/fds6uLd.png",
+			"https://i.imgur.com/rEOoQgB.png",
+			"https://i.imgur.com/C5MZjyD.png"
+		],
+		"description": ""
+	},
+	{
+		"label": "Simple Clock",
+		"id": "simple-clock",
+		"previews": ["https://i.imgur.com/pJ2qqYd.png"],
 		"description": ""
 	}
 ]
