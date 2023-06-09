@@ -100,21 +100,5 @@
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
 		"previews": ["https://i.imgur.com/e7V73EN.png"],
 		"description": ""
-	},
-	{
-		"label": "Casino Slots",
-		"id": "casino-slots",
-		"previews": [
-			"https://i.imgur.com/fds6uLd.png",
-			"https://i.imgur.com/rEOoQgB.png",
-			"https://i.imgur.com/C5MZjyD.png"
-		],
-		"description": ""
-	},
-	{
-		"label": "Simple Clock",
-		"id": "simple-clock",
-		"previews": ["https://i.imgur.com/pJ2qqYd.png"],
-		"description": ""
 	}
 ]
