@@ -6,11 +6,11 @@
 		"repoSources": [	
 			{
 				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-				"label": 'Game Files'
+				"label": "Game Files"
 			},
 			{
 				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-				"label": 'Moving Picture Class'
+				"label": "Moving Picture Class"
 			}
 		],
 		"previews": [
