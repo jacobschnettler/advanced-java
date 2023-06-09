@@ -2,8 +2,8 @@
 	{
 		"label": "MC Frogger (Final Project)",
 		"id": "mc-frogger",
-		"youtube":"https://www.youtube.com/embed/F4NI4n0cZ3U",
-		"repoSources": [	
+		"youtube": "https://www.youtube.com/embed/F4NI4n0cZ3U",
+		"repoSources": [
 			{
 				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/MCFogger.java",
 				"label": "Game Files"
@@ -13,19 +13,19 @@
 				"label": "Moving Picture Class"
 			}
 		],
-		"previews": [
-			"https://i.imgur.com/lUa2qJ7.png"
-		]
+		"previews": ["https://i.imgur.com/lUa2qJ7.png"],
+		"description": ""
 	},
 	{
 		"label": "Battleship",
 		"id": "battleship",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-		"youtube":"https://www.youtube.com/embed/F4NI4n0cZ3U",
+		"youtube": "https://www.youtube.com/embed/F4NI4n0cZ3U",
 		"previews": [
 			"https://i.imgur.com/TMnbTAa.png",
 			"https://i.imgur.com/efxfOku.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "Image Guesser",
@@ -35,21 +35,24 @@
 		"previews": [
 			"https://i.imgur.com/3nDyure.png",
 			"https://i.imgur.com/WR79WBl.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "Who wants to be a Millionare",
 		"id": "millionare",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Millionare.java",
 		"youtube": "https://www.youtube.com/embed/l_vEOB_ZlOI",
-		"previews": ["https://i.imgur.com/2P9Wh5M.png"]
+		"previews": ["https://i.imgur.com/2P9Wh5M.png"],
+		"description": ""
 	},
 	{
 		"label": "Hangman",
 		"id": "hangman",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Hangman.java",
 		"youtube": "https://www.youtube.com/embed/zsI4x_czvJ4",
-		"previews": ["https://i.imgur.com/iFzWmbv.png"]
+		"previews": ["https://i.imgur.com/iFzWmbv.png"],
+		"description": ""
 	},
 	{
 		"label": "NIM 753",
@@ -59,7 +62,8 @@
 		"previews": [
 			"https://i.imgur.com/JC1o1C9.png",
 			"https://i.imgur.com/ITSmz2z.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "Number Time",
@@ -69,7 +73,8 @@
 		"previews": [
 			"https://i.imgur.com/teQ2UPO.png",
 			"https://i.imgur.com/e7V73EN.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "Casino Slots",
@@ -79,13 +84,15 @@
 			"https://i.imgur.com/fds6uLd.png",
 			"https://i.imgur.com/rEOoQgB.png",
 			"https://i.imgur.com/C5MZjyD.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "NFL Team Picker",
 		"id": "nfl-team-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NFLTeamPicker.java",
-		"previews": ["https://i.imgur.com/vdgwRwj.png"]
+		"previews": ["https://i.imgur.com/vdgwRwj.png"],
+		"description": ""
 	},
 	{
 		"label": "Dice Bet",
@@ -95,18 +102,21 @@
 		"previews": [
 			"https://i.imgur.com/KbNaddg.png",
 			"https://i.imgur.com/mOo4iPh.png"
-		]
+		],
+		"description": ""
 	},
 	{
 		"label": "Simple Clock",
 		"id": "simple-clock",
 		"repo": "https://github.com/marwin1991/profile-technology-icons#-javascript",
-		"previews": ["https://i.imgur.com/pJ2qqYd.png"]
+		"previews": ["https://i.imgur.com/pJ2qqYd.png"],
+		"description": ""
 	},
 	{
 		"label": "Pizza Picker",
 		"id": "pizza-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
-		"previews": ["https://i.imgur.com/e7V73EN.png"]
+		"previews": ["https://i.imgur.com/e7V73EN.png"],
+		"description": ""
 	}
 ]
