@@ -5,12 +5,12 @@
 		"youtube":"https://www.youtube.com/embed/F4NI4n0cZ3U",
 		"repoSources": [	
 			{
-				source: "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-				label: 'Game Files'
+				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
+				"label": 'Game Files'
 			},
 			{
-				source: "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
-				label: 'Moving Picture Class'
+				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
+				"label": 'Moving Picture Class'
 			}
 		],
 		"previews": [
