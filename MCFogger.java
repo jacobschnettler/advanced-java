@@ -242,6 +242,18 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                 g.drawImage(houseIMG, 1000, 550, 512, 512, this);
             else if (scrollPosition == 5)
                 g.drawImage(houseIMG, 1000, 550, 512, 512, this);
+            if (scrollPosition == 18 && !choppedTrees)
+                g.drawImage(treeIMG, 820, -120, 450, 450, this);
+            if (scrollPosition == 19 && !choppedTrees)
+                g.drawImage(treeIMG, 820, 200, 450, 450, this);
+            else if (scrollPosition == 20 && !choppedTrees)
+                g.drawImage(treeIMG, 820, 570, 450, 450, this);
+            if (scrollPosition == 19 && !choppedTrees)
+                g.drawImage(treeIMG, 80, -120, 450, 450, this);
+            if (scrollPosition == 20 && !choppedTrees)
+                g.drawImage(treeIMG, 80, 200, 450, 450, this);
+            else if (scrollPosition == 21 && !choppedTrees)
+                g.drawImage(treeIMG, 80, 570, 450, 450, this);
         }
     }
 
@@ -254,12 +266,12 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
         }
     }
 
-    public void drawSandLevel(String levelType, Graphics g, String position, int xPosition, String variant) // water varaints, lava pool. Positions, top, middle, bottom
+    public void drawSandLevel(String levelType, Graphics g, String position, int xPosition, String variant, Boolean top) // water varaints, lava pool. Positions, top, middle, bottom
     {
         for(int x = 0; x <= 12; x++)
         {
-            g.drawImage(sandBlockTopIMG, (blockSize * x), xPosition, blockSize, blockSize, this);
-            g.drawImage(sandBlockTopIMG, (blockSize * x), xPosition + blockSize, blockSize, blockSize, this);
+            g.drawImage(top ? sandBlockTopIMG : dirtBlockTopIMG, (blockSize * x), xPosition, blockSize, blockSize, this);
+            g.drawImage(top ? dirtBlockTopIMG : sandBlockTopIMG, (blockSize * x), xPosition + blockSize, blockSize, blockSize, this);
         }
     }
 
@@ -311,8 +323,10 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                     drawStoneLevel(levelType, g, position, xPosition, "tree");
                 } else if (levelType == "water") {
                     drawWaterLevel(levelType, g, position, xPosition, "tree");
-                } else if (levelType == "sand") {
-                    drawSandLevel(levelType, g, position, xPosition, "tree");
+                } else if (levelType == "sandTop") {
+                    drawSandLevel(levelType, g, position, xPosition, "tree", true);
+                } else if (levelType == "sandBottom") {
+                    drawSandLevel(levelType, g, position, xPosition, "tree", false);
                 }
 
                 if (developerMode)
@@ -413,15 +427,15 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
         for(int x = 0; x <= 13; x++)
             levelOneLevelDataList[x] = "grass";
 
-        levelOneLevelDataList[14] = "sand";
+        levelOneLevelDataList[14] = "sandTop";
 
         levelOneLevelDataList[15] = "water";
         levelOneLevelDataList[16] = "water";
-        levelOneLevelDataList[17] = "water";
-        levelOneLevelDataList[18] = "water";
 
-        levelOneLevelDataList[19] = "sand";
+        levelOneLevelDataList[17] = "sandBottom";
 
+        levelOneLevelDataList[18] = "grass";
+        levelOneLevelDataList[19] = "grass";
         levelOneLevelDataList[20] = "grass";
         levelOneLevelDataList[21] = "grass";
         levelOneLevelDataList[22] = "grass";
@@ -631,6 +645,12 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
             );
 
             bufferG.drawString(
+                "Trees Chopped: " + "1",
+                680,
+                260
+            );
+
+            bufferG.drawString(
                 "Mobs Killed: " + mobsKilled,
                 440,
                 300
@@ -695,7 +715,7 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                 bufferG.setColor(Color.white);
 
                 // Creeper 1
-                if (mobsKilled != 1) {
+                if (mobsKilled <= 0) {
                     if (scrollPosition == 5)
                         bufferG.drawImage(creeperTexture, creepers[0].getX(), creepers[0].getY() - 25, 165, 165, this);
 
@@ -707,7 +727,7 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                 }
 
                 // Creeper 2
-                if (mobsKilled != 2) {
+                if (mobsKilled <= 1) {
                     if (scrollPosition == 7 )
                         bufferG.drawImage(creeperTexture, creepers[1].getX() + 350, creepers[1].getY() - 25, 165, 165, this);
 
@@ -719,7 +739,7 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                 }
 
                 // Creeper 3
-                if (mobsKilled != 3) {
+                if (mobsKilled <= 2) {
                     if (scrollPosition == 9)
                         bufferG.drawImage(creeperTexture, creepers[2].getX() - 350, creepers[2].getY() - 25, 165, 165, this);
 
@@ -836,8 +856,10 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
              */
 
             bufferG.setColor(Color.white);
-            bufferG.setFont(new Font("Ariel", 1, 20));
+            
+            bufferG.setFont(new Font("Arel", 1, 20));
         }
+        
         bufferG.setColor(Color.red);
 
         if (scrollPosition == 5)
@@ -926,6 +948,13 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                         creepers[newKillCount - 1].setAlive(false);
 
                         mobsKilled = newKillCount;
+
+                        showAlert = true;
+
+                        alertTitle = "Creeper Killed!";
+                        alertText = "You have gained +125 experience";
+                   
+                        playerScore = playerScore + 125;
                     } else if (code == e.VK_LEFT)
                     {
                         int newX = playerX - jumpDistance;
@@ -954,7 +983,7 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                         }
                     } else if (code == e.VK_2 && swordEquiped) {
                         holdingSword = true;
-                    } else if (code == e.VK_E && scrollPosition == 4 && playerX == 950 && !swordEquiped)
+                    } else if (code == e.VK_E && scrollPosition == 4 && playerX == 950 && !swordEquiped && choppedTrees)
                     {
                         swordEquiped = true;
 
@@ -970,7 +999,7 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
 
                         alertTitle = "Tree Chopped!";
                         alertText = "You have gained wood and +125 experience";
-
+ 
                         playerScore = playerScore + 125;
                     }
 
@@ -1030,39 +1059,39 @@ public class MCFogger extends Applet implements Runnable, KeyListener, ActionLis
                     playerX - swordRadiusMultiplierX, playerY - swordRadiusMultiplierY, 165 + (swordRadiusMultiplierX * 2), 165 + (swordRadiusMultiplierY * 2)
                 );
 
-            if (steve.intersects(creeper1))
+            if (steve.intersects(creeper1) && scrollPosition == 7)
             {
                 playerHealth--;
 
                 repaint();
             }
 
-            if (steve.intersects(creeper2))
+            if (steve.intersects(creeper2) && scrollPosition == 9)
             {
                 playerHealth--;
 
                 repaint();
             }
 
-            if (steve.intersects(creeper3))
+            if (steve.intersects(creeper3) && scrollPosition == 11)
             {
                 playerHealth--;
 
                 repaint();
             }
 
-            if (swordRadius.intersects(creeper1))
+            if (swordRadius.intersects(creeper1) && scrollPosition == 6)
                 swordHitAvailable = true;
-            else if (swordRadius.intersects(creeper2))
-                swordHitAvailable = true;
-            else if (swordRadius.intersects(creeper3))
-                swordHitAvailable = true;
+            //else if (swordRadius.intersects(creeper2))
+            //    swordHitAvailable = true;
+            //else if (swordRadius.intersects(creeper3))
+            //    swordHitAvailable = true;
             else 
                 swordHitAvailable = false;
 
             if (playerHealth == 0)
             {
-                //showDeathScreen = true;
+                showDeathScreen = true;
 
                 repaint();
             }
