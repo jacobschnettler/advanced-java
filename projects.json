@@ -5,17 +5,16 @@
 		"youtube":"https://www.youtube.com/embed/F4NI4n0cZ3U",
 		"repoSources": [	
 			{
-				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
+				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/MCFogger.java",
 				"label": "Game Files"
 			},
 			{
-				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/BattleshipGame.java",
+				"source": "https://github.com/jacobschnettler/advanced-java/blob/main/MovingPic.java",
 				"label": "Moving Picture Class"
 			}
 		],
 		"previews": [
-			"https://i.imgur.com/TMnbTAa.png",
-			"https://i.imgur.com/efxfOku.png"
+			"https://i.imgur.com/lUa2qJ7.png"
 		]
 	},
 	{
