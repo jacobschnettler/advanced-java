@@ -23,7 +23,7 @@
 			"https://i.imgur.com/tdRkwbX.png",
 			"https://i.imgur.com/Er81vgi.png"
 		],
-		"description": ""
+		"description": "The MC Frogger game was the culmination of everything I learned during the Advanced Java course. The game has two levels, and an interactive title screen with keyboard controls (up/down arrows + enter). I was able too use the Moving Picture class developed by Mr. Luciano too add \"Creeper\" mobs/enemies too the game. There's also other advanced features like crafting, and tree chopping mechanics."
 	},
 	{
 		"label": "Battleship",
@@ -34,7 +34,7 @@
 			"https://i.imgur.com/TMnbTAa.png",
 			"https://i.imgur.com/efxfOku.png"
 		],
-		"description": ""
+		"description": "The Battle Ship game is one of my favorite games developed during the course, I was originally provided a boilerplate/template for the game and added my own custom features and graphics. During the development process, I worked more with Arrays & it was very beneficial too me."
 	},
 	{
 		"label": "Image Guesser",
@@ -45,7 +45,7 @@
 			"https://i.imgur.com/3nDyure.png",
 			"https://i.imgur.com/WR79WBl.png"
 		],
-		"description": "",
+		"description": "The Image Guesser game is centered around removing blocks/squares from an image too try and guess who the celebrity/important figure is. This was one of the first games we developed during the course but I found it very fun too develop. Arrays were used extensively.",
 		"grade": "97%"
 	},
 	{
@@ -56,7 +56,7 @@
 		"previews": [
 			"https://i.imgur.com/2P9Wh5M.png"
 		],
-		"description": "",
+		"description": "The Who Wants to be a Millionare game is based of the popular TV Game Show with the same name. The code has many unique features like 50/50 questions, phone a friend, ask the audience, and many more. I had a lot of fun developing this game.",
 		"grade": "85%"
 	},
 	{
@@ -67,7 +67,7 @@
 		"previews": [
 			"https://i.imgur.com/iFzWmbv.png"
 		],
-		"description": ""
+		"description": "The Hangman game code was originally provided by Mr. Luciano, I added the stick figure assets & code. During the development proess of this game I learned more about Java types, including the \"char\" data type."
 	},
 	{
 		"label": "NIM 753",
@@ -78,7 +78,7 @@
 			"https://i.imgur.com/JC1o1C9.png",
 			"https://i.imgur.com/ITSmz2z.png"
 		],
-		"description": "",
+		"description": "The NIM 753 game was very fun to develop, but challenging to play with friends. During the course me & my classmates challenged eachother in our NIM games.",
 		"grade": "99%"
 	},
 	{
@@ -90,7 +90,7 @@
 			"https://i.imgur.com/teQ2UPO.png",
 			"https://i.imgur.com/e7V73EN.png"
 		],
-		"description": "",
+		"description": "The Number Time game is based off of a popular I-Pad game where you have too click the squares, in order of the number on the square. The game counts how long each run takes by storing two dates and subtracting between them.",
 		"grade": "90%"
 	},
 	{
@@ -100,7 +100,7 @@
 		"previews": [
 			"https://i.imgur.com/vdgwRwj.png"
 		],
-		"description": ""
+		"description": "The NFL Team Picker was our first project during the class, I worked with Luke Campbell too develop a game where you can answer a few questons and the algorithm will figure out what team you are thinking of. We also used Photoshop too develop assets for the game."
 	},
 	{
 		"label": "Dice Bet",
