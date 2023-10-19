@@ -113,15 +113,5 @@
 		],
 		"description": "",
 		"grade": "93%"
-	},
-	{
-		"label": "Pizza Picker",
-		"id": "pizza-picker",
-		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
-		"previews": [
-			"https://i.imgur.com/e7V73EN.png"
-		],
-		"description": "",
-		"grade": "90%"
 	}
 ]
