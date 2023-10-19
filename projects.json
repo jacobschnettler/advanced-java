@@ -13,7 +13,16 @@
 				"label": "Moving Picture Class"
 			}
 		],
-		"previews": ["https://i.imgur.com/lUa2qJ7.png", "https://i.imgur.com/5E8fZTP.png", "https://i.imgur.com/Ip7p3rj.png", "https://i.imgur.com/QnxMW1m.png", "https://i.imgur.com/QKOmbvc.png", "https://i.imgur.com/ckk0vhm.png", "https://i.imgur.com/tdRkwbX.png", "https://i.imgur.com/Er81vgi.png"],
+		"previews": [
+			"https://i.imgur.com/lUa2qJ7.png",
+			"https://i.imgur.com/5E8fZTP.png",
+			"https://i.imgur.com/Ip7p3rj.png",
+			"https://i.imgur.com/QnxMW1m.png",
+			"https://i.imgur.com/QKOmbvc.png",
+			"https://i.imgur.com/ckk0vhm.png",
+			"https://i.imgur.com/tdRkwbX.png",
+			"https://i.imgur.com/Er81vgi.png"
+		],
 		"description": ""
 	},
 	{
@@ -36,22 +45,28 @@
 			"https://i.imgur.com/3nDyure.png",
 			"https://i.imgur.com/WR79WBl.png"
 		],
-		"description": ""
+		"description": "",
+		"grade": "97%"
 	},
 	{
 		"label": "Who wants to be a Millionare",
 		"id": "millionare",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Millionare.java",
 		"youtube": "https://www.youtube.com/embed/l_vEOB_ZlOI",
-		"previews": ["https://i.imgur.com/2P9Wh5M.png"],
-		"description": ""
+		"previews": [
+			"https://i.imgur.com/2P9Wh5M.png"
+		],
+		"description": "",
+		"grade": "85%"
 	},
 	{
 		"label": "Hangman",
 		"id": "hangman",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/Hangman.java",
 		"youtube": "https://www.youtube.com/embed/zsI4x_czvJ4",
-		"previews": ["https://i.imgur.com/iFzWmbv.png"],
+		"previews": [
+			"https://i.imgur.com/iFzWmbv.png"
+		],
 		"description": ""
 	},
 	{
@@ -63,7 +78,8 @@
 			"https://i.imgur.com/JC1o1C9.png",
 			"https://i.imgur.com/ITSmz2z.png"
 		],
-		"description": ""
+		"description": "",
+		"grade": "99%"
 	},
 	{
 		"label": "Number Time",
@@ -74,13 +90,16 @@
 			"https://i.imgur.com/teQ2UPO.png",
 			"https://i.imgur.com/e7V73EN.png"
 		],
-		"description": ""
+		"description": "",
+		"grade": "90%"
 	},
 	{
 		"label": "NFL Team Picker",
 		"id": "nfl-team-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/NFLTeamPicker.java",
-		"previews": ["https://i.imgur.com/vdgwRwj.png"],
+		"previews": [
+			"https://i.imgur.com/vdgwRwj.png"
+		],
 		"description": ""
 	},
 	{
@@ -92,13 +111,17 @@
 			"https://i.imgur.com/KbNaddg.png",
 			"https://i.imgur.com/mOo4iPh.png"
 		],
-		"description": ""
+		"description": "",
+		"grade": "93%"
 	},
 	{
 		"label": "Pizza Picker",
 		"id": "pizza-picker",
 		"repo": "https://github.com/jacobschnettler/advanced-java/blob/main/PizzaPicker.java",
-		"previews": ["https://i.imgur.com/e7V73EN.png"],
-		"description": ""
+		"previews": [
+			"https://i.imgur.com/e7V73EN.png"
+		],
+		"description": "",
+		"grade": "90%"
 	}
 ]
